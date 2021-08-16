@@ -26,6 +26,7 @@ export const Contact = () => {
   const enviarDatos = (e) => {
     e.preventDefault();
     console.log("enviando datos formulario")
+
   }
   
   return (
@@ -107,7 +108,7 @@ export const Contact = () => {
         </div>
 
         <div className="button-contact">
-          <button onClick={enviarDatos} type="submit">Enviar</button>
+          <button type="submit">Enviar</button>
           <p className="mensaje-exito">Formulario enviado exitosamente</p>
         </div>
       </form>
